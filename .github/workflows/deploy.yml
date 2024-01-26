@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: "/CyberTSU-svelte"
+          BASE_PATH: "/cyberTSU-svelte"
         run: |
           npm run build
 
