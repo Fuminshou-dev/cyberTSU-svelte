@@ -2,24 +2,28 @@
 	import img1 from "$lib/images/1.jpg"
 	import img2 from "$lib/images/2.jpg"
 	import img3 from "$lib/images/3.jpg"
-	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
-
-import '@splidejs/svelte-splide/css/skyblue';
-
 </script>
 
-<Splide class="splide" options={ { rewind: true, width: 1600 } } aria-label="My Favorite Images">
-	<SplideSlide>
-	  <img width="1600" src={img1} alt="Image 1"/>
-	</SplideSlide>
-	<SplideSlide>
-	  <img width="1600" src={img2} alt="Image 2"/>
-	</SplideSlide>
-	<SplideSlide>
-		<img width="1600" src={img3} alt="Image 3"/>
-	</SplideSlide>
-  </Splide>
-
-
-  <style>
-  </style>
+<div class="carousel carousel-center h-full">
+	<div id="slide1" class="carousel-item relative w-full">
+	  <img src={img1} alt="team image" class="w-full" />
+	  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+		<a href="#slide3" class="btn btn-circle">❮</a> 
+		<a href="#slide2" class="btn btn-circle">❯</a>
+	  </div>
+	</div> 
+	<div id="slide2" class="carousel-item relative w-full">
+	  <img src={img2} alt="team image" class="w-full" />
+	  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+		<a href="#slide1" class="btn btn-circle">❮</a> 
+		<a href="#slide3" class="btn btn-circle">❯</a>
+	  </div>
+	</div> 
+	<div id="slide3" class="carousel-item relative w-full">
+	  <img src={img3} alt="team image" class="w-full" />
+	  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+		<a href="#slide2" class="btn btn-circle">❮</a> 
+		<a href="#slide1" class="btn btn-circle">❯</a>
+	  </div>
+	</div> 
+</div>

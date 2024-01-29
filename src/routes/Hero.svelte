@@ -2,37 +2,12 @@
     import cyberLogo from '$lib/images/be.png'
 </script>
 
-
-<div class="hero">
-        <img src={cyberLogo} alt="">
-        <div class="heroText">
-            <h1>CyberTSU FTW</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, possimus!</p>
+<div class="hero bg-base-200 h-41">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src={cyberLogo} alt="cybertsu logo" class="h-40 rounded-lg shadow-2xl" />
+      <div>
+        <h1 class="text-5xl font-bold">CyberTSU </h1>
+        <p class="py-6">Мы идем к победе, уничтожая всех на своем пути?  </p>
+      </div>
     </div>
-</div>
-
-
-<style>
-
-    .hero {
-        background-color: gray;
-        display: flex;
-        justify-content: center;
-        height: 180px;
-    }
-    .hero * {
-        color: black;
-        padding: 20px;
-
-    }
-    .heroText {
-        padding-left: 80px;
-        width:400px;
-        overflow:hidden;
-        height: 150px;
-    }
-    .hero img {
-        width: 150px;
-        height: 150px;
-    }
-</style>
+  </div>

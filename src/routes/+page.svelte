@@ -3,7 +3,7 @@
   import Hero from "./Hero.svelte";
 
 </script>
-<div class="carousel">
+<div class="carousel h-lvh">
   <Carousel />
 </div>
 <Hero />
