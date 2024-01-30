@@ -4,7 +4,7 @@
   import img3 from "$lib/images/3.jpg";
 </script>
 
-<div class="carousel carousel-center h-full flex">
+<div class="carousel hidden md:inline-flex carousel-center h-full flex">
   <div
     id="slide1"
     class="carousel-item flex justify-center align-center relative w-full p-2"

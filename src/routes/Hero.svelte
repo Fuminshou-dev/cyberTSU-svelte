@@ -2,7 +2,9 @@
   import cyberLogo from "$lib/images/be.png";
 </script>
 
-<div class="hero bg-base-200 h-41">
+<div
+  class="hero bg-base-200 h-41 outline-dashed p-0 m-0 outline-slate-700 mt-5 md:mt-0"
+>
   <div class="hero-content flex-col lg:flex-row">
     <img
       src={cyberLogo}

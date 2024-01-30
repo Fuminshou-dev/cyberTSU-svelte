@@ -21,7 +21,9 @@
   ];
 </script>
 
-<div class="cards flex m-0 p-0 items-center justify-center gap-20">
+<div
+  class="container mx-auto cards flex m-0 p-0 items-center md:gap-20 justify-center flex-col md:flex-row"
+>
   {#each teams as team}
     <div
       class=" outline-dashed outline-slate-500 card w-96 bg-base-50 shadow-2xl"

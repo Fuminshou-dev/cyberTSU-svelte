@@ -34,7 +34,9 @@
   ];
 </script>
 
-<div class="navbar bg-base-100 fixed top-0 z-10 outline outline-slate-500">
+<div
+  class="navbar overflow-x-auto flex bg-base-100 fixed top-0 z-10 outline outline-slate-500"
+>
   <div class="navbar-start">
     <a href="/" class="btn btn-ghost text-xl ml-0">CyberTSU</a>
   </div>

@@ -6,4 +6,5 @@
 <div class="flex place-content-between justify-center items-center m-0">
   <Carousel />
 </div>
+<h1 class="text-7xl md:hidden">Герои нашего времени.</h1>
 <Hero />

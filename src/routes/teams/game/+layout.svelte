@@ -6,10 +6,10 @@
   <slot />
 </div>
 <div
-  class="gap-10 grid grid-cols-5 content-center justify-center items-center m-10 mt-20"
+  class="gap-10 grid lg:grid-cols-5 content-center justify-center items-center m-10 mt-20"
 >
   {#each players as player}
-    <div class="flex flex-col gap-4 h-100 w-60 w-52 shadow-xl">
+    <div class="flex flex-col gap-4 h-100 w-60 w-52">
       <div class="flex gap-4 items-center">
         <div class="skeleton w-16 h-16 rounded-full shrink-0"></div>
         <div class="flex flex-col gap-4">

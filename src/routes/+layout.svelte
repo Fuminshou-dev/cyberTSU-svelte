@@ -11,8 +11,10 @@
 </svelte:head>
 
 <div class="main flex flex-col h-screen">
+  <div class="max-w-full max-h-full overflow-hidden">
+    <NewNavbar />
+  </div>
   <!-- <Navbar></Navbar> -->
-  <NewNavbar />
   <div class="flex-grow mt-20 content-center">
     <slot />
   </div>
