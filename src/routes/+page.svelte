@@ -3,15 +3,7 @@
   import Hero from "./Hero.svelte";
 </script>
 
-<div class="carousel h-lvh">
+<div class="flex place-content-between justify-center items-center m-0">
   <Carousel />
 </div>
 <Hero />
-
-<style>
-  .carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-</style>
