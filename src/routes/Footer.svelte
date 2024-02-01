@@ -4,7 +4,7 @@
   <aside class="pb-0">
     <p class="text-base underline text-opacity-50 overline">CyberTSU</p>
     <p class="underline text-opacity-90">
-      Tomsk State University Cybersport Team
+      Tomsk State University Cybersport Club
     </p>
   </aside>
   <nav>

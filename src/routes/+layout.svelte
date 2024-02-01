@@ -15,7 +15,7 @@
     <NewNavbar />
   </div>
   <!-- <Navbar></Navbar> -->
-  <div class="flex-grow mt-20 content-center">
+  <div class="flex-grow mt-20">
     <slot />
   </div>
   <Footer></Footer>
