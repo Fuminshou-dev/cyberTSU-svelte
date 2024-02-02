@@ -22,7 +22,7 @@
 </script>
 
 <div
-  class="container mx-auto cards flex m-0 p-0 items-center md:gap-20 justify-center flex-col md:flex-row"
+  class="container mx-auto cards flex m-0 p-0 items-center gap-5 md:gap-20 justify-center flex-col md:flex-row"
 >
   {#each teams as team}
     <div

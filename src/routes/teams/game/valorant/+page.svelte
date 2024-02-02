@@ -1,1 +1,1 @@
-<h1>Наша команда по Valorant</h1>
+<h1 class="font-bold">Наша команда по Valorant</h1>
