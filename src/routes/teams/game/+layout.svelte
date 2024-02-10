@@ -6,7 +6,7 @@
   <slot />
 </div>
 <div
-  class="gap-5 grid lg:grid-cols-5 content-center justify-center items-center m-5"
+  class="lg:gap-20 gap-5 grid lg:flex content-center justify-center items-center m-5"
 >
   {#each players as player}
     <div

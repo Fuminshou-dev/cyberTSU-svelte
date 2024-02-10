@@ -10,7 +10,7 @@
     id="slide1"
     class="carousel-item flex justify-center align-center relative w-full p-2"
   >
-    <img src={img4} alt="team image" class="h-5/6 w-11/12" />
+    <img src={img1} alt="team image" class="h-5/6 w-11/12" />
     <div
       class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
     >
@@ -22,7 +22,7 @@
     id="slide2"
     class="carousel-item flex justify-center align-center relative w-full p-2"
   >
-    <img src={img1} alt="team image" class="h-5/6 w-11/12" />
+    <img src={img4} alt="team image" class="h-5/6 w-11/12" />
     <div
       class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
     >
